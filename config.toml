@@ -1,0 +1,72 @@
+baseURL= "/"
+publishDir = "docs"
+languageCode= "en"
+title= "ECF Network"
+paginate = 5
+copyright = "All rights reserved - 2019"
+theme = "hero"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+ignoreFiles = [ "\\.foo$", "\\.boo$" ]
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+[blackfriday]
+  angledQuotes = true
+  hrefTargetBlank = true
+
+[params]
+  description = "This is the ECF website"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = ""
+  author = "Hugh Lang"
+  authorlocation = "New York, NY"
+  authorwebsite = ""
+  authorbio= ""
+  logo = ""
+  hjsStyle = "default"
+  paginatedsections = ["posts"]
+  google_analytics_id=""
+
+[[menu.main]]
+name = "Community"
+url = "/community/"
+weight = 1
+
+# [[menu.main]]
+# identifier = "develop"
+# name = "Develop"
+# url = "/develop/"
+# weight = 2
+
+[[menu.main]]
+identifier = "members"
+name = "Members"
+url = "/members/"
+weight = 3
+
+[[menu.main]]
+identifier = "grants"
+name = "Grants"
+url = "/grants/"
+weight = 4
+
+# [[menu.main]]
+# parent = "platforms"
+# name = "Ethereum"
+# url = ""
+# weight = 1
+# 
+# [[menu.main]]
+# parent = "platforms"
+# name = "EOS"
+# url = ""
+# weight = 1
+
+# [[menu.main]]
+#     name = "Contact"
+#     url = "/contact/"
+#     weight = 4

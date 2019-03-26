@@ -1,0 +1,75 @@
+{{ define "title" }}{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+{{ define "header_classes" }}header-transparent{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+{{ if .Content }}
+<div class="container pt-6 pt-md-10">
+  <div class="row">
+    <div class="col-12">
+      <div class="page-intro">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+<!-- <div id="home" class="strip strip-primary" style="background-image: linear-gradient(to right top, #0b2449, #004d7c, #007896, #00a38a, #0ac960);">
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+    <div class="row justify-content-center">
+		  	<div class="col-12 col-md-4 text-center text-white">
+				<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Learn</a>
+			</div>
+		  	<div class="col-12 col-md-4 text-center text-white">
+		  		<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Engage</a>
+		  	</div>
+		  	<div class="col-12 col-md-4 text-center text-white">
+				<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Contact</a>		  		
+		  	</div>
+    </div>
+  </div>
+</div> -->
+<!-- {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+{{if gt (len $services) 0}}
+<div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="text-center mb-3">Our Services</h2>
+    </div>
+    {{ range first 6 (sort $services ".Params.weight") }}
+    <div class="col-12 col-md-4 mb-1">
+      {{ .Render "summary" }}
+    </div>
+    {{ end }}
+    <div class="col-12 text-center">
+      <a class="button button-primary" href="{{ .Site.BaseURL }}services">View All Services</a>
+    </div>
+  </div>
+</div>
+{{end}} -->
+
+<!-- <div id="home" class="strip strip-primary">
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-white">
+          <h2>Our Difference</h2>
+          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+          <a class="button button-white" href="{{ .Site.BaseURL }}about">About Us</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

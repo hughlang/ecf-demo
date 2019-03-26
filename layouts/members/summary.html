@@ -1,0 +1,13 @@
+<div class="members members-summary">
+  {{ if .Params.icon }}
+  <div class="members-image">
+    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+  </div>
+  {{ end }}
+  <div class="members-content">
+    <h2 class="members-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <p>{{ .Params.teaser }}</p>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+.members-summary {
+  display: flex;
+  align-items: flex-start;
+  .members-image {
+    flex: 0 0 50px;
+    margin-right: 10px;
+		//		background-color: gray;
+		//    border-radius: 50%;
+	//    max-height: 120px;
+	//    max-width: 120px;
+	//    min-height: 120px;
+	//    min-width: 120px;
+		
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .members-content {
+    flex: 1;
+    .members-title {
+      font-family: $font-family-heading;
+      font-size: 1.5rem;
+    }
+    p {
+      color: #666;
+      font-size: 0.9rem;
+      width: 90%;
+    }
+  }
+}
+

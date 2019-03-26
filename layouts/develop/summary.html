@@ -1,0 +1,13 @@
+<div class="develop develop-summary">
+  {{ if .Params.icon }}
+  <div class="develop-image">
+    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+  </div>
+  {{ end }}
+  <div class="develop-content">
+    <h2 class="develop-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <p>{{ .Params.teaser }}</p>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-services-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<div id="home" class="strip strip-primary" style="background-image: linear-gradient(to right top, #0b2449, #004d7c, #007896, #00a38a, #0ac960);">
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
+    <div class="row justify-content-center">
+		  	<div class="col-12 col-md-4 text-center text-white">
+				<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Learn</a>
+			</div>
+		  	<div class="col-12 col-md-4 text-center text-white">
+		  		<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Engage</a>
+		  	</div>
+		  	<div class="col-12 col-md-4 text-center text-white">
+				<h2>CTA</h2>
+		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Contact</a>		  		
+		  	</div>
+    </div>
+  </div>
+</div>
+{{ if .Content }}
+
+<div class="container pt-6 pt-md-5">
+  <div class="row">
+    <div class="col-12 pb-3">
+		{{ partial "breadcrumb.html" . }}
+	</div>
+	</div>
+  <div class="row">
+    <div class="col-12">
+      <div class="page-intro">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+<div class="container pb-6 pt-6 pb-md-10 pt-md-10">
+  <div class="row">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-md-4 mb-2 ">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

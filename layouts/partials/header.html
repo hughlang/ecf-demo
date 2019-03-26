@@ -1,0 +1,13 @@
+<!-- TODO: sticky header: https://getbootstrap.com/docs/4.0/utilities/position/#sticky-top  -->
+<div class='header header-absolute sticky-top'>
+  <div class="container">
+    <div class="logo">						
+      <a href="{{ .Site.BaseURL }}"><img class="float-left" alt="ECF logo" src="{{ .Site.BaseURL }}images/full-logo.svg" style="height:80px"/></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="{{ .Site.BaseURL }}"><img alt="Home" src="{{ .Site.BaseURL }}images/ecf-brandmark.svg" /></a>
+    </div>
+    {{ partial "main-menu.html" . }}
+    {{ partial "hamburger.html" . }}
+  </div>
+</div>

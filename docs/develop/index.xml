@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Develop on ECF Network</title>
+    <link>/develop/</link>
+    <description>Recent content in Develop on ECF Network</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All rights reserved - 2019</copyright>
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate>
+    
+	<atom:link href="/develop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rust</title>
+      <link>/develop/rust/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/develop/rust/</guid>
+      <description>&lt;p&gt;The Rust language is emerging as a favorite for Wasm development.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C/C&#43;&#43;</title>
+      <link>/develop/c-language/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/develop/c-language/</guid>
+      <description> C++ Wasm book (Chinese)  </description>
+    </item>
+    
+    <item>
+      <title>AssemblyScript</title>
+      <link>/develop/assembly-script/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/develop/assembly-script/</guid>
+      <description> Links  AssemblyScript Github repo WebAssembly Studio IDE  TypeScript  https://microsoft.github.io/TypeSearch/ http://definitelytyped.org/directory/learn.html  </description>
+    </item>
+    
+    <item>
+      <title>EOS</title>
+      <link>/develop/platforms/eos/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/develop/platforms/eos/</guid>
+      <description> https://developers.eos.io/keosd/v1.3.0/reference  </description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>/develop/golang/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>/develop/golang/</guid>
+      <description> Qt for Go  </description>
+    </item>
+    
+  </channel>
+</rss>
