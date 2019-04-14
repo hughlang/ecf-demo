@@ -6593,7 +6593,10 @@ ol {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 400px; } }
+      width: 186px;
+      padding-top: 10px; } }
+  .logo svg {
+    height: 50px; }
   .logo img {
     height: auto; }
   .logo a {
