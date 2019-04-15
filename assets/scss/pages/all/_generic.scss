@@ -10,11 +10,17 @@
 		  line-height: 1.2;			
     }
   }
+	.strip {
+			background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);		
+	}
 	.card {
 		padding: 40px 0;
 		background-color: transparent;		
 		border: 4px solid #FFF;
-		height: 360px;
 	}	
+	.card-footer {
+		background-color: transparent; 
+		border: none;
+	}
 }
 
