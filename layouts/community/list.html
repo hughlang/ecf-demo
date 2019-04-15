@@ -1,10 +1,9 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-services-list{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
 
-{{ if .Content }}
+<!-- {{ if .Content }}
 <div class="container pt-12 generic">
   <div class="title-row">
     <div class="col-12">
@@ -14,16 +13,22 @@
     </div>
   </div>
 </div>
-{{ end }}
+{{ end }} -->
 
-<div id="community" class="strip strip-primary" style="background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);">
+<div id="community" class="strip strip-primary pt-6 generic" style="background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);">
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
     <div class="row justify-content-center">
 	    {{ range .Pages.ByWeight }}
-	  	<div class="col-12 col-md-4 text-center text-white">
-				<h2>{{ .Title }}</h2>
-		          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
-		          <a class="button button-white" href="{{ .Site.BaseURL }}about">Learn</a>
+			<div class="col-12 col-sm-4 text-center">
+				<div class="card">
+				  <div class="card-body">
+				    <h4 class="card-title text-white">{{ .Title }}</h4>
+				    <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
+				  </div>
+				  <div class="card-footer text-muted" style="background-color: transparent; border: none;">
+				    <a href="#" class="button button-white">Go somewhere</a>
+				  </div>
+				</div>			
 			</div>
 			{{ end }}
     </div>
