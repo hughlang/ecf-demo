@@ -1,0 +1,39 @@
+<svg width="1467px" height="870px" viewBox="0 0 1467 870" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="72.1217235%" y1="66.2352596%" x2="18.9935633%" y2="59.8554186%" id="linearGradient-1">
+            <stop stop-color="#52BB97" offset="0%"></stop>
+            <stop stop-color="#A5E2B2" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="13.7397807%" cy="52.9582716%" fx="13.7397807%" fy="52.9582716%" r="75.4340232%" gradientTransform="translate(0.137398,0.529583),scale(0.596280,1.000000),rotate(-141.344746),scale(1.000000,0.927018),translate(-0.137398,-0.529583)" id="radialGradient-2">
+            <stop stop-color="#57FF8E" offset="0%"></stop>
+            <stop stop-color="#F9F047" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="38.2103732%" cy="88.4187899%" fx="38.2103732%" fy="88.4187899%" r="74.2716722%" gradientTransform="translate(0.382104,0.884188),scale(0.596280,1.000000),rotate(-40.466029),scale(1.000000,0.779970),translate(-0.382104,-0.884188)" id="radialGradient-3">
+            <stop stop-color="#B6FF48" offset="0%"></stop>
+            <stop stop-color="#F9F047" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-4" x="-249.600004" y="52.8000008" width="1462.40002" height="872.000013"></rect>
+        <radialGradient cx="13.7397807%" cy="52.9582716%" fx="13.7397807%" fy="52.9582716%" r="76.2089528%" gradientTransform="translate(0.137398,0.529583),scale(0.586433,1.000000),rotate(-141.809258),scale(1.000000,0.927018),translate(-0.137398,-0.529583)" id="radialGradient-5">
+            <stop stop-color="#57FF8E" offset="0%"></stop>
+            <stop stop-color="#F9F047" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="38.2103732%" cy="88.4187899%" fx="38.2103732%" fy="88.4187899%" r="74.9960244%" gradientTransform="translate(0.382104,0.884188),scale(0.586433,1.000000),rotate(-39.995595),scale(1.000000,0.779970),translate(-0.382104,-0.884188)" id="radialGradient-6">
+            <stop stop-color="#B6FF48" offset="0%"></stop>
+            <stop stop-color="#F9F047" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-7" x="252.800004" y="-56.0000008" width="1462.40002" height="857.600013"></rect>
+    </defs>
+    <g id="colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gradient-twoLayer-gradientTopSide" fill-rule="nonzero">
+            <rect id="Rectangle-Copy-8" fill="url(#linearGradient-1)" x="0" y="0" width="1467.20002" height="870.400013"></rect>
+            <g id="Rectangle-Copy-2" opacity="0.579543341" style="mix-blend-mode: soft-light;">
+                <use fill="url(#radialGradient-2)" xlink:href="#path-4"></use>
+                <use fill="url(#radialGradient-3)" xlink:href="#path-4"></use>
+            </g>
+            <g id="Rectangle-Copy-3" opacity="0.579543341" style="mix-blend-mode: soft-light;" transform="translate(984.000015, 372.800006) rotate(-180.000000) translate(-984.000015, -372.800006) ">
+                <use fill="url(#radialGradient-5)" xlink:href="#path-7"></use>
+                <use fill="url(#radialGradient-6)" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

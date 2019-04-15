@@ -1896,7 +1896,8 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  background-color: white; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -6598,7 +6599,7 @@ ol {
   .logo svg {
     height: 50px; }
   .logo img {
-    height: auto; }
+    height: 70px; }
   .logo a {
     display: block;
     width: 100%;

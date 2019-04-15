@@ -77,5 +77,17 @@ CSS gradients
 	$font-family-heading: 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
 	```
 
+## Bootstrap Notes
+
+### Colors
+
+The _bootstrap-variables.scss file defines the color variables. The following are the important colors:
+
+* background
+* primary
+* secondary
+* brand
+
+
 
 

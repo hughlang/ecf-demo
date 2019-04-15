@@ -32,6 +32,12 @@ expiryDate = ["expiryDate"]
   google_analytics_id=""
 
 [[menu.main]]
+identifier = "members"
+name = "Members"
+url = "/members/"
+weight = 1
+
+[[menu.main]]
 identifier = "network"
 name = "Network"
 url = "/network/"

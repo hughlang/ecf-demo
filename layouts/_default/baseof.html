@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
 	
   {{ if .Site.IsServer }}
@@ -22,13 +22,15 @@
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
   {{ partial "main-menu-mobile.html" . }}
-  <div id="wrapper" class="wrapper">
-    {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
+	<main class="xcontainer">
+  <!-- <div id="wrapper" class="wrapper"> -->
+   <!-- <div class="container-fluid">		 -->
     {{ block "main" . }}
-
+	<!-- </div> -->
     {{ end }}
-  </div>
-
+  <!-- </div> -->
+	</main>
   {{ partial "footer.html" . }}
   {{ partial "sub-footer.html" . }}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
