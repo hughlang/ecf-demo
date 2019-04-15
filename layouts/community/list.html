@@ -14,19 +14,19 @@
   </div>
 </div>
 {{ end }} -->
-
+<!-- Edit _generic.scss, which has style config for the "card" class -->
 <div id="community" class="strip strip-primary pt-6 generic" style="background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);">
-  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12 cards" >
     <div class="row justify-content-center">
 	    {{ range .Pages.ByWeight }}
 			<div class="col-12 col-sm-4 text-center">
 				<div class="card">
 				  <div class="card-body">
 				    <h4 class="card-title text-white">{{ .Title }}</h4>
-				    <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
+				    <p class="card-text text-white">{{ .Params.Caption }}</p>
 				  </div>
 				  <div class="card-footer text-muted" style="background-color: transparent; border: none;">
-				    <a href="#" class="button button-white">Go somewhere</a>
+				    <a href="#" class="button button-white">{{ .Params.CTA }}</a>
 				  </div>
 				</div>			
 			</div>
