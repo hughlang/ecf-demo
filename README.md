@@ -29,9 +29,6 @@ This section contains information for helping with the development of this site.
 * This is the Hugo theme that was copied and modified: https://github.com/jugglerx/hugo-hero-theme
 * Bootstrap: https://getbootstrap.com/docs/4.0/utilities/spacing/ 
 
-CSS gradients
-* https://mycolor.space/gradient
-* https://cssgradient.io/
 
 
 ## Development in Hugo
@@ -83,11 +80,22 @@ CSS gradients
 
 The _bootstrap-variables.scss file defines the color variables. The following are the important colors:
 
+forest green: 52BB97
+mint green: A5E2B2
+seafoam: D4FFE0
+dark background: 353837
+
+background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);
+
+
 * background
 * primary
 * secondary
 * brand
 
+CSS gradients
+* https://mycolor.space/gradient
+* https://cssgradient.io/
 
 
 

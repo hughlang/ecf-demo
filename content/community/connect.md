@@ -1,7 +1,7 @@
 ---
-title: 'ECF Ambassadors'
+title: 'Connect'
 caption: ''
 draft: false
 featured: true
-weight: 1
+weight: 3
 ---
