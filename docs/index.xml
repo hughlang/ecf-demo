@@ -94,14 +94,5 @@ Neutrino Fullnode Berlin Nonce </description>
       <description></description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is the content area from index.md</description>
-    </item>
-    
   </channel>
 </rss>

@@ -6,12 +6,31 @@
 {{ define "main" }}
 
 <div class="home">
+  <div class="container-fluid pt-8 pb-8 pb-md-12 pt-md-12" style="height:2000px;padding:0px;">
+    <!-- <div class="row justify-content-center">
+			<div class="col-12"> -->
+<div class="parallax-window bgpanel">
+  <div class="parallax-slider">
+		<img src="{{ .Site.BaseURL }}images/ecf/ecf.network-intro-banner.jpg"/>
+    <span style="position:absolute; top: 400px; left: 400px;">Some Text</span>
+	<p>Some other Content</p>
+  </div>
+</div>
+<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="{{ .Site.BaseURL }}images/ecf/ecf.network-intro-banner.jpg" style="height:400px;"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="{{ .Site.BaseURL }}images/ecf/the-mission-banner-2.jpg"></div> -->
+			<!-- </div>
+    </div> -->
+	  </div>
+</div> 
+
+<!-- 
+<div class="home">
 	<div class="strip strip-primary pt-6">
 	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
 	    <div class="row justify-content-center" style="height:400px;">
 				<div class="col-12 col-md-9">
-<!-- First panellax Section -->
-<div class="jumbotron panel panelbg1">
+
+					<div class="jumbotron panel panelbg1">						
 <h1 class="display-3">Here is a heading 1</h1>
 <p class="lead">Here is a short description 1</p>
 <p class="lead">
@@ -19,7 +38,6 @@
 </p>
 </div>
  
-<!-- Second panellax Section -->
 <div class="jumbotron panel panelbg1">
 <h1 class="display-3">Here is a heading 2</h1>
 <p class="lead">Here is a short description 2</p>
@@ -28,7 +46,6 @@
 </p>
 </div>
  
-<!-- Third panellax Section -->
 <div class="jumbotron panel panelbg2">
 <h1 class="display-3">Here is a heading 3</h1>
 <p class="lead">Here is a short description 2</p>
@@ -36,14 +53,12 @@
 <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
 </p>
 </div>
-
 				</div>
 	    </div>
 	  </div>
 	</div>
-</div>
-
-
+</div> 
+-->
 
 {{ end }}
 

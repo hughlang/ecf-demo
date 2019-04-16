@@ -1,4 +1,13 @@
 .home {
+	background: transparent;	
+	.bgpanel {
+		min-height: 400px;
+		background: transparent;
+		z-index:99;
+		img {
+			width: 100%;
+		}
+	}
 	.panel {
 		min-height: 600px;
 		background-attachment: fixed;
