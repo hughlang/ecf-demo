@@ -3,10 +3,12 @@
 	.bgpanel {
 		min-height: 400px;
 		background: transparent;
-		z-index:99;
 		img {
-			width: 100%;
+			width: 100vw;
 		}
+	}
+	#fg1 {
+		background: white;
 	}
 	.panel {
 		min-height: 600px;

@@ -37,12 +37,6 @@ name = "Members"
 url = "/members/"
 weight = 1
 
-# [[menu.main]]
-# identifier = "network"
-# name = "Network"
-# url = "/network/"
-# weight = 1
-
 [[menu.main]]
 identifier = "community"
 name = "Community"
@@ -54,6 +48,13 @@ identifier = "grants"
 name = "Grants"
 url = "/grants/"
 weight = 3
+
+[[menu.main]]
+identifier = "news"
+name = "News"
+url = "/news/"
+weight = 4
+
 
 # [[menu.main]]
 # parent = "platforms"

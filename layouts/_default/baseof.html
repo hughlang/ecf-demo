@@ -38,6 +38,16 @@
 
 <script>
 	jQuery(window).trigger('resize').trigger('scroll');
+	$('.parallax-window').parallax({
+		speed: 0.1,
+		bleed: 20
+	});	
+	$('#p1').parallax({
+		positionY: 100,
+	});	
+	$('#p2').parallax({
+		positionY: 200,
+	});	
 </script>
 
   {{ block "footer_js" . }}
