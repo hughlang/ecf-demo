@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Members on ECF Network</title>
-    <link>/members/</link>
-    <description>Recent content in Members on ECF Network</description>
+    <title>Network on ECF Network</title>
+    <link>/network/</link>
+    <description>Recent content in Network on ECF Network</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All rights reserved - 2019</copyright>
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate>
     
-	<atom:link href="/members/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ethereum Foundation</title>
-      <link>/members/ethereum/</link>
+      <link>/network/ethereum/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/members/ethereum/</guid>
+      <guid>/network/ethereum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golem</title>
-      <link>/members/golem/</link>
+      <link>/network/golem/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/members/golem/</guid>
+      <guid>/network/golem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maker DAO</title>
-      <link>/members/maker/</link>
+      <link>/network/maker/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/members/maker/</guid>
+      <guid>/network/maker/</guid>
       <description></description>
     </item>
     

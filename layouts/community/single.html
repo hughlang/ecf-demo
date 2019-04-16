@@ -5,23 +5,23 @@
 {{ define "main" }}
 
 <div class="generic">
-<div class="strip strip-primary pt-6">
-  <div class="container pt-8 pb-8 pb-md-12 pt-md-12 cards" >
-    <div class="row justify-content-center" style="height:400px;">
-			<div class="col-12 col-md-9">
-{{ if .Content }}
-<div class="jumbotron">
-  <h1 class="display-4">{{ .Title }}</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>				
-{{ end }}
-			</div>
-    </div>
-  </div>
-</div>
+	<div class="strip strip-primary pt-6">
+	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
+	    <div class="row justify-content-center" style="height:400px;">
+				<div class="col-12 col-md-9">
+	{{ if .Content }}
+	<div class="jumbotron">
+	  <h1 class="display-4">{{ .Title }}</h1>
+	  <p class="lead">{{ .Content }}</p>
+	  <hr class="my-4">
+	  <p>If your co-working space would like to join our Community Partners program, please contact us!</p>
+	  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	</div>				
+	{{ end }}
+				</div>
+	    </div>
+	  </div>
+	</div>
 </div>
 
 <!-- <div class="container pt-4 pt-md-10 pb-4 pb-md-10">

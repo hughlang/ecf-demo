@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on ECF Network</title>
+    <link>/community/</link>
+    <description>Recent content in Community on ECF Network</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>All rights reserved - 2019</copyright>
+    
+	<atom:link href="/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ECF Ambassadors</title>
+      <link>/community/ambassadors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/community/ambassadors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Partners</title>
+      <link>/community/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/community/partners/</guid>
+      <description> Our list of community partners is already growing.
+Neutrino Fullnode Berlin Nonce </description>
+    </item>
+    
+    <item>
+      <title>Connect with ECF</title>
+      <link>/community/connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/community/connect/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

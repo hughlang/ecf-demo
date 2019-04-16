@@ -13,48 +13,31 @@
     
     
     <item>
-      <title>Rust</title>
-      <link>/develop/rust/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      <title>ECF Ambassadors</title>
+      <link>/community/ambassadors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/develop/rust/</guid>
-      <description>&lt;p&gt;The Rust language is emerging as a favorite for Wasm development.&lt;/p&gt;</description>
+      <guid>/community/ambassadors/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>C/C&#43;&#43;</title>
-      <link>/develop/c-language/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      <title>Community Partners</title>
+      <link>/community/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/develop/c-language/</guid>
-      <description> C++ Wasm book (Chinese)  </description>
+      <guid>/community/partners/</guid>
+      <description> Our list of community partners is already growing.
+Neutrino Fullnode Berlin Nonce </description>
     </item>
     
     <item>
-      <title>AssemblyScript</title>
-      <link>/develop/assembly-script/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      <title>Connect with ECF</title>
+      <link>/community/connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/develop/assembly-script/</guid>
-      <description> Links  AssemblyScript Github repo WebAssembly Studio IDE  TypeScript  https://microsoft.github.io/TypeSearch/ http://definitelytyped.org/directory/learn.html  </description>
-    </item>
-    
-    <item>
-      <title>EOS</title>
-      <link>/develop/platforms/eos/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>/develop/platforms/eos/</guid>
-      <description> https://developers.eos.io/keosd/v1.3.0/reference  </description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>/develop/golang/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>/develop/golang/</guid>
-      <description> Qt for Go  </description>
+      <guid>/community/connect/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -63,6 +46,51 @@
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/members/ethereum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethereum Foundation</title>
+      <link>/network/ethereum/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/network/ethereum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golem</title>
+      <link>/members/golem/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/members/golem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golem</title>
+      <link>/network/golem/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/network/golem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maker DAO</title>
+      <link>/members/maker/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/members/maker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maker DAO</title>
+      <link>/network/maker/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/network/maker/</guid>
       <description></description>
     </item>
     

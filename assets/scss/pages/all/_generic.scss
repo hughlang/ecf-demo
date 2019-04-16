@@ -1,15 +1,8 @@
 .generic {
-  .title-row {
-		width: 100%;
-		background-color: #999999;
-    h1 {
-      color: #FFF;
-      width: 100%;
-			padding: 10px 0;
-		  font-size: 2.4rem;	
-		  line-height: 1.2;			
-    }
-  }
+	.display-4 {
+	  font-size: 2.4rem;	
+		font-family: $font-family-heading;
+	}
 	.strip {
 			background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);		
 	}
@@ -21,6 +14,17 @@
 	.card-footer {
 		background-color: transparent; 
 		border: none;
+	}
+	.card-title {
+		font-family: $font-family-heading;
+		font-size: 1.2rem;
+	}
+	
+	h2 {
+	  font-size: 1.8rem;			
+	}
+	p {
+//	  font-size: 1.2rem;			
 	}
 }
 

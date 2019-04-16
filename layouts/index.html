@@ -5,32 +5,44 @@
 
 {{ define "main" }}
 
-{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
-<div class="container pt-6 pt-md-10">
-  <div class="row">
-    <div class="col-12">
-
-      <div class="page-intro">
-        {{ .Content }}
-					<img src="{{ .Site.BaseURL }}images/background/mint-gradient-bg.svg"/>
-
-      </div>
-    </div>
-  </div>
+<div class="home">
+	<div class="strip strip-primary pt-6">
+	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
+	    <div class="row justify-content-center" style="height:400px;">
+				<div class="col-12 col-md-9">
+<!-- First panellax Section -->
+<div class="jumbotron panel panelbg1">
+<h1 class="display-3">Here is a heading 1</h1>
+<p class="lead">Here is a short description 1</p>
+<p class="lead">
+<a class="btn btn-info btn-lg btn-md" href="#" role="button">Here is a button 1</a>
+</p>
+</div>
+ 
+<!-- Second panellax Section -->
+<div class="jumbotron panel panelbg1">
+<h1 class="display-3">Here is a heading 2</h1>
+<p class="lead">Here is a short description 2</p>
+<p class="lead">
+<a class="btn btn-warning btn-lg btn-md" href="widgets.html" role="button">Here is a button 2</a>
+</p>
+</div>
+ 
+<!-- Third panellax Section -->
+<div class="jumbotron panel panelbg2">
+<h1 class="display-3">Here is a heading 3</h1>
+<p class="lead">Here is a short description 2</p>
+<p class="lead">
+<a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
+</p>
 </div>
 
-{{ if .Content }}
-<div class="container pt-6 pt-md-10">
-  <div class="row">
-    <div class="col-12">
-
-      <div class="page-intro">
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
+				</div>
+	    </div>
+	  </div>
+	</div>
 </div>
-{{ end }}
+
 
 {{ end }}
 

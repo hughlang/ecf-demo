@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 186 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M26.0204235,7.21217595 L24.8571529,7.92335518 L44.5304044,19.1852439 L36.375377,23.8774829 L16.9832408,12.7371644 L15.9986519,13.3391044 L35.3412496,24.4247368 L27.1441457,29.1538734 L0.550634435,13.95365 L18.9416799,3.16169953 L18.9344262,3.15754899 L22.5091257,1.0948563 C24.9889344,-0.321831501 29.1484973,-0.439070525 32.0026967,1.18799289 L53.8722596,13.7691685 L45.6913852,18.4679539 L26.0204235,7.21217595 Z M6.85764529,33.475961 L6.85764529,34.5963889 L26.6894262,46.0125678 L26.6891257,60.7602849 L4.54786885,48.007119 C2.05423497,46.581802 0.00661202196,43.805558 0.00661202196,40.17948 L0.00661202196,29.5372684 L8.52651283e-14,29.5334671 L8.52651283e-14,14.8780488 L26.6891257,30.1270661 L26.688224,44.8766578 L6.85764529,33.475961 Z M54.6059426,24.222913 L27.9166667,39.3126757 L27.9166667,29.9820383 L54.6059426,14.7778877 L54.6059426,24.222913 Z M45.3781448,39.9047952 L27.9166667,49.9584879 L27.9166667,40.7409415 L45.3781448,30.707483 L45.3781448,39.9047952 Z M27.9166667,51.1836051 L36.1267541,46.4761905 L36.1267541,55.9832636 L27.9166667,60.7088295 L27.9166667,51.1836051 Z" id="path-1"></path>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-new-dark-editable" transform="translate(-25.000000, -12.000000)">
+            <g id="Group-5" transform="translate(25.000000, 10.000000)">
+                <g id="Group-Copy-5" transform="translate(0.000000, 2.000000)">
+                    <g id="Group-6-Copy-22">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#444A4A" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <polygon id="Path-16" fill="#5A6161" fill-rule="nonzero" mask="url(#mask-2)" points="29.7593253 64.8290156 -1.39125238 11.5620915 -5.18115942 46.0490196"></polygon>
+                    </g>
+                </g>
+                <text id="ethereum-community-f" font-family="Rockwell-Regular, Rockwell" font-size="22" font-weight="normal" line-spacing="22" fill="#444A4A">
+                    <tspan x="64" y="15">ethereum </tspan>
+                    <tspan x="64" y="37">community</tspan>
+                    <tspan x="64" y="59">fund</tspan>
+                </text>
+                <text id=".network" font-family="Rockwell-Regular, Rockwell" font-size="14" font-weight="normal" line-spacing="22" fill="#4F5454">
+                    <tspan x="118" y="57">.network</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

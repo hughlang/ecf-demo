@@ -1,6 +1,6 @@
 // Font
-@import url('https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700');
-//@import url('https://fonts.googleapis.com/css?family=Monda');
+//@import url('https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700');
+@import url('../fonts/North.woff');
 
 // Bootstrap
 @import 'bootstrap/functions';
@@ -66,7 +66,7 @@
 
 // Pages
 @import 'pages/all/generic';
-@import 'pages/develop/develop-summary';
+@import 'pages/all/home';
 @import 'pages/members/members-summary';
 
 //@import 'pages/services/page-services-list';

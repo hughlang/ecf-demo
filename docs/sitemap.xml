@@ -3,32 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/develop/rust/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>/community/ambassadors/</loc>
   </url>
   
   <url>
-    <loc>/develop/c-language/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>/community/partners/</loc>
   </url>
   
   <url>
-    <loc>/develop/assembly-script/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/develop/platforms/eos/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/develop/golang/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>/community/connect/</loc>
   </url>
   
   <url>
     <loc>/members/ethereum/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/network/ethereum/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/members/golem/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/network/golem/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/members/maker/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/network/maker/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,7 +60,7 @@
   </url>
   
   <url>
-    <loc>/develop/</loc>
+    <loc>/grants/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url>
   
@@ -58,13 +70,17 @@
   </url>
   
   <url>
-    <loc>/develop/tools/</loc>
+    <loc>/network/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url>
   
   <url>
     <loc>/404/</loc>
     <lastmod>2018-02-10T10:52:03+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/community/</loc>
   </url>
   
 </urlset>
