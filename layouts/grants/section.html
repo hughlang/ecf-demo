@@ -1,0 +1,38 @@
+{{ define "title" }}{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+{{ define "header_classes" }}header-transparent{{ end }}
+
+{{ define "main" }}
+
+<div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .Site.BaseURL }}images/misc/coder-laptop-hero.jpg');">
+    <div class="container ">
+      <div class="hero-down">
+        <a href="#home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898.75 533.751" transform="matrix(.69 0 0 .69 15.5 15.5)" fill="#fff"  width="60" height="60">
+                <path d="M224.687 309.061L0 84.372l42.186-42.186L84.372 0l182.815 182.811L450 365.622l182.5-182.496L815 .63l41.874 41.874L898.75 84.38 674.062 309.065 449.373 533.751 224.687 309.06z"/>
+            </svg>
+        </a>
+      </div>
+    </div>
+</div>
+  
+
+
+<div class="strip bg-primary pt-8 pb-8">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-white">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+          <a class="button button-white" href="{{ .Site.BaseURL }}contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

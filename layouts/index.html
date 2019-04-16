@@ -5,75 +5,65 @@
 
 {{ define "main" }}
 
-<div class="home">
-  <div class="container-fluid pt-8 pb-8 pb-md-12 pt-md-12" style="height:2000px;padding:0px;">
-
-<div id="p1" class="parallax-window bgpanel">
-  <div class="parallax-slider">
-		<img src="{{ .Site.BaseURL }}images/ecf/ecf.network-intro-banner.jpg" style="width:100%;"/>
-
-
+<div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .Site.BaseURL }}images/ecf/ecf.network-intro-banner.jpg');">
+    <div class="container ">
+      <div class="hero-down">
+        <!-- <a href="#home">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898.75 533.751" transform="matrix(.69 0 0 .69 15.5 15.5)" fill="#fff">
+                <path d="M224.687 309.061L0 84.372l42.186-42.186L84.372 0l182.815 182.811L450 365.622l182.5-182.496L815 .63l41.874 41.874L898.75 84.38 674.062 309.065 449.373 533.751 224.687 309.06z"/>
+            </svg>
+          </svg>
+        </a> -->
+      </div>
+    </div>
+</div>
+  
+<div id="home" class="strip bg-cover bg-position-center bg-overlay pt-15 pb-15" style="background-image: url('{{ .Site.BaseURL }}images/todd-diemer-284465-unsplash.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <h2 class="text-primary text-capitalize">No Limits </h2>
+          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit. </p>
+      </div>
+    </div>
   </div>
 </div>
 
-	<div id="fg1" class="strip-primary pt-6" style="height:350px">
-	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
-	    <div class="row justify-content-center">
-				<div class="col-12 col-md-9">
-					<h1>PANEL</h1>
-		    </div>
-		  </div>
-		</div>
-	</div> 
 
-
-
-<div id="p2" class="parallax-window bgpanel">
-  <div class="parallax-slider">
-		<img src="{{ .Site.BaseURL }}images/ecf/the-mission-banner-2.jpg" style="width:100%;"/>
-		
-  </div>
-</div>
-
-	  </div>
-</div> 
-
-<!-- 
-<div class="home">
-	<div class="strip strip-primary pt-6">
-	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12" >
-	    <div class="row justify-content-center" style="height:400px;">
-				<div class="col-12 col-md-9">
-
-					<div class="jumbotron panel panelbg1">						
-<h1 class="display-3">Here is a heading 1</h1>
-<p class="lead">Here is a short description 1</p>
-<p class="lead">
-<a class="btn btn-info btn-lg btn-md" href="#" role="button">Here is a button 1</a>
-</p>
-</div>
- 
-<div class="jumbotron panel panelbg1">
-<h1 class="display-3">Here is a heading 2</h1>
-<p class="lead">Here is a short description 2</p>
-<p class="lead">
-<a class="btn btn-warning btn-lg btn-md" href="widgets.html" role="button">Here is a button 2</a>
-</p>
-</div>
- 
-<div class="jumbotron panel panelbg2">
-<h1 class="display-3">Here is a heading 3</h1>
-<p class="lead">Here is a short description 2</p>
-<p class="lead">
-<a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
-</p>
-</div>
-				</div>
-	    </div>
-	  </div>
+<div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .Site.BaseURL }}images/ecf/the-mission-banner-2.jpg');">
+  <div class="container ">
 	</div>
-</div> 
--->
+</div>
+
+<div class="strip bg-cover bg-position-center bg-overlay pt-15 pb-15" style="background-image: url('{{ .Site.BaseURL }}images/adrian-infernus-1198884-unsplash.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-2">
+          <h2 class="text-primary text-capitalize">Integrity & Performance</h2>
+      </div>
+      <div class="col-12 col-md-6 ">
+          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit. </p>
+      </div>
+      <div class="col-12 col-md-6">
+          <p>Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip bg-primary pt-8 pb-8">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-white">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo, </p>
+          <a class="button button-white" href="{{ .Site.BaseURL }}contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 {{ end }}
 

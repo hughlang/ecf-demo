@@ -44,9 +44,11 @@ $breadcrumb-divider: "/";
 
 
 // Fonts
-$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
+$font-family-base: 'Share Tech Mono', 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
   -apple-system;
 $font-family-heading: 'North', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-narrow: 'Open Sans Condensed', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
 $font-weight-light: 300;
