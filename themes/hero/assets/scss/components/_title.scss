@@ -4,7 +4,7 @@
   line-height: 1.2;
   font-family: $font-family-heading;
   @include media-breakpoint-up(md) {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
   &.black {
     color: #222222;
@@ -14,7 +14,7 @@
   font-family: $font-family-heading;
   font-weight: light;
   color: #333333;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   @include media-breakpoint-up(md) {
     font-size: 4rem;
   }

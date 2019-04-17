@@ -2,7 +2,7 @@
 title: 'Community Partners'
 shortname: 'Partners'
 CTA: 'Learn More'
-caption: 'Blockchain co-working facilities support ECF grantees: Fullnode, Neutrino, Nonce are interested in donating office space to grantees.'
+caption: 'ECF is working with several blockchain co-working facilities to support ECF grantees present and future.'
 draft: false
 featured: true
 weight: 2

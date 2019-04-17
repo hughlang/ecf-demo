@@ -4,9 +4,9 @@
 
 {{ define "main" }}
 <div class="strip bg-primary pt-8 pb-8">
-  <div class="container">
+  <div class="container-fluid" style="padding:0">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-8 text-center text-white">
+      <div class="col-12 text-center text-white">
 
         <!-- HEADER ILLUSTRATION -->
         <div class="svg-mask">
@@ -422,6 +422,6 @@
   </div>
 </div>
 
-{{ $scripts := resources.Get "js/about.js" }}
+<!-- {{ $scripts := resources.Get "js/about.js" }} -->
 
 {{ end }}
