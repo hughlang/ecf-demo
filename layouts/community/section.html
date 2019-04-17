@@ -22,12 +22,14 @@
     <div class="row justify-content-center">
 	    {{ range .Pages.ByWeight }}
 			<div class="col-12 col-sm-4 text-center">
-				<div class="card" style="height: 360px;">
-				  <div class="card-body">
+				<div class="card" style="height: 340px;">
+				  <div class="card-header">
 				    <h4 class="card-title text-white">{{ .Title }}</h4>
+				  </div>
+				  <div class="card-body">
 				    <p class="card-text text-white">{{ .Params.Caption }}</p>
 				  </div>
-				  <div class="card-footer text-muted">
+				  <div class="card-footer">
 				    <a href="{{ .Permalink }}" class="button button-white">{{ .Params.CTA }}</a>
 				  </div>
 				</div>			

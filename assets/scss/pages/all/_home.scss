@@ -1,24 +1,7 @@
 .home {
 	background: transparent;			
-	.display-4 {
-	  font-size: 2.4rem;	
-		font-family: $font-family-heading;
-	}
 	.strip {
 			background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97);		
-	}
-	.card {
-		padding: 40px 0;
-		background-color: transparent;		
-		border: 4px solid #FFF;
-	}	
-	.card-footer {
-		background-color: transparent; 
-		border: none;
-	}
-	.card-title {
-		font-family: $font-family-heading;
-		font-size: 1.2rem;
 	}
 	.hero {
 		p {
@@ -26,11 +9,11 @@
 			font-size: 1.5rem;			
 		}
 	}
+	.hero-image-fullscreen {
+	  height: 90vh;
+	}	
 	h2 {
 	  font-size: 1.8rem;			
-	}
-	p {
-//	  font-size: 1.2rem;			
 	}
 }
 
