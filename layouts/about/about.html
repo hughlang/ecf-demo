@@ -3,8 +3,21 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
+
+{{ partial "hero-image-fullscreen.html" (dict "background" "images/jason-blackeye-1191801-unsplash.jpg" "heading" "About ECF" "subheading" "ECF Network: More Than Grants"  "content" .)}}
+
 				
-<div class="strip bg-primary pt-8 pb-8">
+<div class="intro intro-small generic pt-12">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- <h1>{{ .Title }}</h1> -->
+      </div>
+    </div>
+  </div>
+</div>
+				
+<div class="strip bg-primary pt-15 pb-8">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
