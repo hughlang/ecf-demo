@@ -1,0 +1,32 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-services-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<div class="members">  
+	<div id="news" class="bg-cover bg-position-center bg-overlay pt-15 pb-15">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-12 col-md-8">
+	          <h2 class="text-primary title-2">{{ .Title }} </h2>
+	          <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit. </p>
+	      </div>
+	      <div class="col-12 col-md-4">
+	          <h2 class="text-primary text-capitalize">Recent News</h2>
+							<ul class="list-group">
+							{{ range .Pages.ByWeight }}
+							  <li class="list-group-item">
+							  	<a href="{{ .Permalink }}">{{ .Title }}</a>
+							  </li>
+							{{ end }}
+							</ul>						
+	      </div>
+
+	    </div>
+	  </div>
+	</div>
+</div>
+
+{{ end }}
+

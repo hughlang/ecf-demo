@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+@font-face {
+font-family: 'North Regular';
+font-style: normal;
+font-weight: normal;
+src: local('North Regular'), url('North.woff') format('woff');
+}
+
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
@@ -26,17 +33,17 @@
 @import "bootstrap/navbar";
 @import "bootstrap/card";
 @import "bootstrap/breadcrumb";
-// @import "bootstrap/pagination";
+ @import "bootstrap/pagination";
 // @import "bootstrap/badge";
-// @import "bootstrap/jumbotron";
+ @import "bootstrap/jumbotron";
 // @import "bootstrap/alert";
 // @import "bootstrap/progress";
 // @import "bootstrap/media";
-// @import "bootstrap/list-group";
+ @import "bootstrap/list-group";
 // @import "bootstrap/close";
 // @import "bootstrap/modal";
 // @import "bootstrap/tooltip";
-// @import "bootstrap/popover";
+ @import "bootstrap/popover";
 // @import "bootstrap/carousel";
 // @import "bootstrap/print";
 @import 'bootstrap/utilities';
@@ -69,9 +76,6 @@
 @import 'pages/all/generic';
 @import 'pages/all/home';
 @import 'pages/all/members';
-
-//@import 'pages/services/page-services-list';
-//@import 'pages/services/page-services-single';
 
 // Display breakpoints for DEV
 // body:after {

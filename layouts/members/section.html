@@ -22,7 +22,9 @@
 					<div class="members-summary">
 					  {{ if .Params.icon }}
 					  <div class="members-image">
-					    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+							<a href="{{ .Permalink }}">
+						    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+							</a>
 					  </div>
 					  {{ end }}
 					</div>						
