@@ -7292,9 +7292,19 @@ ul.social {
   background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97); }
 
 .generic .card {
-  padding: 40px 0;
+  padding: 40px 0 20px;
   background-color: transparent;
-  border: 4px solid #FFF; }
+  border: 4px solid #FFF;
+  margin: 0 10px 20px; }
+
+.generic .card-header {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  height: 60px; }
+
+.generic .card-body {
+  padding: 0.75rem 1.0rem; }
 
 .generic .card-footer {
   background-color: transparent;
@@ -7309,44 +7319,83 @@ ul.social {
 
 .home {
   background: transparent; }
-  .home .display-4 {
-    font-size: 2.4rem;
-    font-family: "North", "Helvetica Neue", Arial, sans-serif, -apple-system; }
   .home .strip {
     background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97); }
-  .home .card {
-    padding: 40px 0;
-    background-color: transparent;
-    border: 4px solid #FFF; }
-  .home .card-footer {
-    background-color: transparent;
-    border: none; }
-  .home .card-title {
-    font-family: "North", "Helvetica Neue", Arial, sans-serif, -apple-system;
-    font-size: 1.2rem; }
   .home .hero p {
     font-family: "Share Tech Mono", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
     font-size: 1.5rem; }
+  .home .hero-image-fullscreen {
+    height: 90vh; }
   .home h2 {
     font-size: 1.8rem; }
+  .home .svg-container {
+    background: #005382;
+    box-sizing: border-box;
+    height: 100%;
+    max-height: 86vh;
+    min-height: 20rem;
+    overflow: hidden;
+    position: relative;
+    width: calc(100% + 96px);
+    z-index: 1; }
+  .home .svg-mask {
+    border: 10px solid var(--green);
+    border-radius: 0 0 8rem 8rem;
+    overflow: hidden;
+    outline: 1px solid transparent;
+    transition: all 200ms ease-in; }
+  .home .svg-mask.open {
+    border: 10px solid var(--black-light); }
 
-.members-summary {
-  display: flex;
-  align-items: flex-start; }
-  .members-summary .members-image {
-    flex: 0 0 50px;
-    margin-right: 10px; }
-    .members-summary .members-image img {
-      max-width: 100%;
-      height: auto; }
-  .members-summary .members-content {
-    flex: 1; }
-    .members-summary .members-content .members-title {
-      font-family: "Share Tech Mono", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
-      font-size: 1.5rem; }
-    .members-summary .members-content p {
-      color: #666;
-      font-size: 0.9rem;
-      width: 90%; }
+.members {
+  background: transparent; }
+  .members .strip {
+    background-image: linear-gradient(to right, #a5e2b2, #92d8aa, #7ecfa3, #69c59d, #52bb97); }
+  .members .hero p {
+    font-family: "Share Tech Mono", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-size: 1.5rem; }
+  .members .hero-image-fullscreen {
+    height: 90vh; }
+  .members h2 {
+    font-size: 1.8rem; }
+  .members p {
+    font-family: "Share Tech Mono", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-size: 1.3rem; }
+  .members .card {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    height: 220px; }
+  .members .members-summary {
+    display: flex;
+    align-items: flex-start; }
+    .members .members-summary .members-image {
+      border: 5px solid #353837;
+      padding: 25px;
+      height: 220px;
+      width: 220px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+      .members .members-summary .members-image img {
+        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        /* Half the height */
+        margin-left: -50px;
+        /* Half the width */ }
+    .members .members-summary .members-content {
+      flex: 1; }
+      .members .members-summary .members-content .members-title {
+        font-family: "Share Tech Mono", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+        font-size: 1.5rem; }
+      .members .members-summary .members-content p {
+        color: #666;
+        font-size: 0.9rem;
+        width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

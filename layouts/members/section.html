@@ -1,0 +1,36 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-services-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<div class="members">
+	<div class="container mt-14 pb-2">
+	  <div class="row">
+	    <div class="col-12">
+	      <h1 class="title-1 black">{{ .Title }}</h1>
+	      {{ .Content }}
+	    </div>
+	  </div>
+	</div>
+
+  <div class="container pb-6 cards" >
+    <div class="row justify-content-center">
+	    {{ range .Pages.ByWeight }}
+			<div class="col-12 col-sm-3 text-center">
+				<div class="card">
+					<div class="members-summary">
+					  {{ if .Params.icon }}
+					  <div class="members-image">
+					    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+					  </div>
+					  {{ end }}
+					</div>						
+				</div>			
+			</div>
+			{{ end }}
+    </div>
+  </div>
+
+</div>
+{{ end }}

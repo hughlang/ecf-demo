@@ -17,27 +17,27 @@
 
 <!-- Edit _generic.scss, which has style config for the "card" class -->
 <div id="community" class="generic">
-<div class="strip strip-primary pt-6">
-  <div class="container pt-8 pb-8 pb-md-12 pt-md-12 cards" >
-    <div class="row justify-content-center">
-	    {{ range .Pages.ByWeight }}
-			<div class="col-12 col-sm-4 text-center">
-				<div class="card" style="height: 340px;">
-				  <div class="card-header">
-				    <h4 class="card-title text-white">{{ .Title }}</h4>
-				  </div>
-				  <div class="card-body">
-				    <p class="card-text text-white">{{ .Params.Caption }}</p>
-				  </div>
-				  <div class="card-footer">
-				    <a href="{{ .Permalink }}" class="button button-white">{{ .Params.CTA }}</a>
-				  </div>
-				</div>			
-			</div>
-			{{ end }}
-    </div>
-  </div>
-</div>
+	<div class="strip strip-primary pt-6">
+	  <div class="container pt-8 pb-8 pb-md-12 pt-md-12 cards" >
+	    <div class="row justify-content-center">
+		    {{ range .Pages.ByWeight }}
+				<div class="col-12 col-sm-4 text-center">
+					<div class="card" style="height: 340px;">
+					  <div class="card-header">
+					    <h4 class="card-title text-white">{{ .Title }}</h4>
+					  </div>
+					  <div class="card-body">
+					    <p class="card-text text-white">{{ .Params.Caption }}</p>
+					  </div>
+					  <div class="card-footer">
+					    <a href="{{ .Permalink }}" class="button button-white">{{ .Params.CTA }}</a>
+					  </div>
+					</div>			
+				</div>
+				{{ end }}
+	    </div>
+	  </div>
+	</div>
 </div>
 
 {{ end }}
