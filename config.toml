@@ -7,6 +7,7 @@ copyright = "All rights reserved - 2019"
 theme = "hero"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 ignoreFiles = [ "\\.foo$", "\\.boo$" ]
+sectionPagesMenu = "main"
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
@@ -20,7 +21,7 @@ expiryDate = ["expiryDate"]
 
 [params]
   description = "This is the ECF website"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  metadescription = ""
   cover = ""
   author = "Hugh Lang"
   authorlocation = "New York, NY"
@@ -32,10 +33,16 @@ expiryDate = ["expiryDate"]
   google_analytics_id=""
 
 [[menu.main]]
-identifier = "members"
-name = "Members"
-url = "/members/"
+identifier = "about"
+name = "About"
+url = "/about/"
 weight = 1
+
+[[menu.main]]
+identifier = "members"
+name = "Membership"
+url = "/members/"
+weight = 3
 
 [[menu.main]]
 identifier = "community"
@@ -44,10 +51,10 @@ url = "/community/"
 weight = 2
 
 [[menu.main]]
-identifier = "grants"
-name = "Grants"
-url = "/grants/"
-weight = 3
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 5
 
 [[menu.main]]
 identifier = "news"
@@ -55,20 +62,3 @@ name = "News"
 url = "/news/"
 weight = 4
 
-
-# [[menu.main]]
-# parent = "platforms"
-# name = "Ethereum"
-# url = ""
-# weight = 1
-# 
-# [[menu.main]]
-# parent = "platforms"
-# name = "EOS"
-# url = ""
-# weight = 1
-
-# [[menu.main]]
-#     name = "Contact"
-#     url = "/contact/"
-#     weight = 4
