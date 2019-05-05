@@ -1,5 +1,6 @@
 ---
 title: 'Maker DAO'
+slug: 'maker-dao'
 date: 2018-11-18	
 icon: 'images/logos/maker.svg'
 website: 'https://makerdao.com/'

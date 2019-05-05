@@ -1,0 +1,21 @@
+{{ define "header_css" }}{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+{{ if .Content }}
+<div class="container pt-12 generic">
+  <div class="title-row">
+    <div class="col-12">
+      <div class="page-intro">
+				{{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+{{ partial "contact_banner.html" . }}
+
+{{ end }}
