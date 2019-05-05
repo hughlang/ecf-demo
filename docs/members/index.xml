@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Members on ECF Network</title>
+    <title>ECF Membership on ECF Network</title>
     <link>/members/</link>
-    <description>Recent content in Members on ECF Network</description>
+    <description>Recent content in ECF Membership on ECF Network</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All rights reserved - 2019</copyright>
@@ -32,10 +32,10 @@
     
     <item>
       <title>Maker DAO</title>
-      <link>/members/maker/</link>
+      <link>/members/maker-dao/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/members/maker/</guid>
+      <guid>/members/maker-dao/</guid>
       <description></description>
     </item>
     

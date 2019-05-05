@@ -7,7 +7,15 @@
   </url>
   
   <url>
+    <loc>/about/faq/</loc>
+  </url>
+  
+  <url>
     <loc>/community/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/contact/</loc>
   </url>
   
   <url>
@@ -35,13 +43,23 @@
   </url>
   
   <url>
-    <loc>/members/maker/</loc>
+    <loc>/members/maker-dao/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/network/maker/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/ecf-at-the-odyssey-hackathon/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/blockchain-schools-gets-help-from-ecf/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -60,12 +78,12 @@
   </url>
   
   <url>
-    <loc>/grants/</loc>
+    <loc>/members/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/members/</loc>
+    <loc>/grants/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url>
   

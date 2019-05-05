@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on ECF Network</title>
+    <title>About ECF on ECF Network</title>
     <link>/about/</link>
-    <description>Recent content in About on ECF Network</description>
+    <description>Recent content in About ECF on ECF Network</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>All rights reserved - 2019</copyright>
@@ -11,6 +11,27 @@
     
 	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>/about/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/faq/</guid>
+      <description>1. how long before we will hear from ECF after submission? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+2. How do we apply for support/grant/investment? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+3. What&amp;rsquo;s the usual grant size? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+4. Will ECF take equity or other forms of ownership of the applicant?</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/about/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

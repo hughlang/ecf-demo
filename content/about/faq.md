@@ -5,6 +5,7 @@ CTA: 'Get your answers here.'
 draft: false
 featured: true
 weight: 1
+layout: 'faq'
 ---
 
 

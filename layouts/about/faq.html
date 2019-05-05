@@ -1,17 +1,18 @@
 {{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
 
 {{ if .Content }}
-<div class="container pt-12 generic">
-  <div class="title-row">
-    <div class="col-12">
-      <div class="page-intro">
+<div class="faq">
+	<div class="container pt-20">
+	  <div class="row">
+		  <div class="col-12">
 				{{ .Content }}
-      </div>
-    </div>
-  </div>
+		  </div>
+		</div>
+	</div>
 </div>
 {{ end }}
 

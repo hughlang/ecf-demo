@@ -22,6 +22,18 @@
     </item>
     
     <item>
+      <title>Frequently Asked Questions</title>
+      <link>/about/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/faq/</guid>
+      <description>1. how long before we will hear from ECF after submission? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+2. How do we apply for support/grant/investment? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+3. What&amp;rsquo;s the usual grant size? ad hominem, ad nauseum, reductio ad absurdum, tempus fugit, caveat emptor
+4. Will ECF take equity or other forms of ownership of the applicant?</description>
+    </item>
+    
+    <item>
       <title>Community Partners</title>
       <link>/community/partners/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +41,15 @@
       <guid>/community/partners/</guid>
       <description> Our list of community partners is already growing.
 Neutrino Fullnode Berlin Nonce </description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/about/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/contact/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -78,10 +99,10 @@ Neutrino Fullnode Berlin Nonce </description>
     
     <item>
       <title>Maker DAO</title>
-      <link>/members/maker/</link>
+      <link>/members/maker-dao/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/members/maker/</guid>
+      <guid>/members/maker-dao/</guid>
       <description></description>
     </item>
     
@@ -91,6 +112,24 @@ Neutrino Fullnode Berlin Nonce </description>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/network/maker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECF at the Odyssey Hackathon</title>
+      <link>/news/ecf-at-the-odyssey-hackathon/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/news/ecf-at-the-odyssey-hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain Schools Gets Help from ECF</title>
+      <link>/news/blockchain-schools-gets-help-from-ecf/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/news/blockchain-schools-gets-help-from-ecf/</guid>
       <description></description>
     </item>
     
