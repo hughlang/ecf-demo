@@ -8,4 +8,6 @@ draft: false
 featured: true
 weight: 4
 heroHeading: 'Ethereum Foundation'
+key: 'ethereum'
+type: 'member'
 ---

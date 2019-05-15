@@ -49,6 +49,10 @@
 				max-height:120px;
 				max-width:120px;				
 	  	}
+			button, html [type="button"] {
+				-moz-appearance: none;
+				-webkit-appearance: none;
+			}
 		}
 	  .members-content {
 	    flex: 1;
@@ -62,5 +66,9 @@
 	      width: 90%;
 	    }
 	  }
+		.container {padding:20px;}
+		.form-control {width:120px;}
+		.popover {max-width:400px;}
 	}
+
 }

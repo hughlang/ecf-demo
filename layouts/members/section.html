@@ -5,27 +5,40 @@
 {{ define "main" }}
 
 <div class="members">
-	<div class="container mt-14 pb-2">
+	<div class="container mt-16">
 	  <div class="row">
 	    <div class="col-12">
-	      <h1 class="title-1 black">{{ .Title }}</h1>
+	      <h1 class="title-1 black mb-4">{{ .Title }}</h1>
 	      {{ .Content }}
 	    </div>
 	  </div>
 	</div>
 
+	<div class="container mt-2">
+		<div class="row">
+			<div class="col-12">
+				<h3 class="title-3 black">Current Members</h3>
+			</div>
+		</div>
+	</div>	
   <div class="container pb-6 cards" >
     <div class="row justify-content-center">
-	    {{ range .Pages.ByWeight }}
+	    {{ range $i, $val := where .Pages.ByTitle "Type" "==" "member" }}
 			<div class="col-12 col-sm-3 text-center">
 				<div class="card">
 					<div class="members-summary">
 					  {{ if .Params.icon }}
 					  <div class="members-image">
-							<a href="{{ .Permalink }}">
+							<a data-toggle="popover" tabindex="{{ $i }}" data-container="body" data-placement="top" type="button" data-html="true" href="#" id="{{ if .Params.key }}{{ .Params.key }}{{ end }}" >
 						    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
 							</a>
 					  </div>
+				    <div id="popover-content-{{ if .Params.key }}{{ .Params.key }}{{ end }}" class="d-none">
+				      <ul class="list-group">
+							  <li class="list-group-item">{{ .Title }}</li>
+							  <li class="list-group-item"><a href="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></li>
+							</ul>
+				    </div>						
 					  {{ end }}
 					</div>						
 				</div>			
@@ -34,5 +47,42 @@
     </div>
   </div>
 
+{{ $partners := (where .Pages "Type" "==" "partner") }}
+{{ $pageCount := len $partners }}
+{{ if gt $pageCount 0 }}
+	<div class="container mt-2">
+		<div class="row">
+			<div class="col-12">
+				<h3 class="title-3 black">Partners</h3>
+			</div>
+		</div>
+	</div>	
+  <div class="container pb-6 cards" >
+    <div class="row justify-content-center">
+	    {{ range $i, $val := where .Pages.ByTitle "Type" "==" "partner" }}
+			<div class="col-12 col-sm-3 text-center">
+				<div class="card">
+					<div class="members-summary">
+					  {{ if .Params.icon }}
+					  <div class="members-image">
+							<a data-toggle="popover" tabindex="{{ $i }}" data-container="body" data-placement="top" type="button" data-html="true" href="#" id="{{ if .Params.key }}{{ .Params.key }}{{ end }}" >
+						    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+							</a>
+					  </div>
+				    <div id="popover-content-{{ if .Params.key }}{{ .Params.key }}{{ end }}" class="d-none">
+				      <ul class="list-group">
+							  <li class="list-group-item">{{ .Title }}</li>
+							  <li class="list-group-item"><a href="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></li>
+							</ul>
+				    </div>						
+					  {{ end }}
+					</div>						
+				</div>			
+			</div>
+			{{ end }}
+    </div>
+  </div>
+{{ end }}
 </div>
+
 {{ end }}

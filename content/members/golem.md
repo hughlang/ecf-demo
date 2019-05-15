@@ -8,4 +8,6 @@ draft: false
 featured: true
 weight: 5
 heroHeading: 'Golem'
+key: 'golem'
+type: 'member'
 ---

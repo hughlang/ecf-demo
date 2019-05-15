@@ -9,4 +9,6 @@ draft: false
 featured: true
 weight: 5
 heroHeading: 'Maker DAO'
+key: 'maker'
+type: 'member'
 ---

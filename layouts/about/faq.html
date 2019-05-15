@@ -4,9 +4,18 @@
 
 {{ define "main" }}
 
+
 {{ if .Content }}
 <div class="faq">
-	<div class="container pt-20">
+	<div class="container pt-20 mb-2">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-1 black">Frequently Asked Questions</h2>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="container mb-4">
 	  <div class="row">
 		  <div class="col-12">
 				{{ .Content }}
